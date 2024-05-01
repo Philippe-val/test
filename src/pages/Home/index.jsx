@@ -2,7 +2,7 @@ import "./home.css"
 
 const Home = () => {
   return (
-    <div>Home Home Home home</div>
+    <div>Home; Denis je cois que j'ai compris.</div>
   )
 }
 
