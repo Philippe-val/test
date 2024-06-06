@@ -1,8 +1,9 @@
 import "./home.css"
+import SectionIntro from "../../components/SectionIntro"
 
 const Home = () => {
   return (
-    <div>Home; Denis je cois que j'ai compris.</div>
+    <div><SectionIntro /></div>
   )
 }
 

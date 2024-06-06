@@ -1,0 +1,62 @@
+.actualite-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.title-container{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.title-actualite{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    width: 100%;
+    text-align: center;
+}
+.card-actualite{
+    background-color: #fff;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.card-actualite:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.text-actualite{
+    font-size: 16px;
+    color: #000;
+    margin-top: 10px;
+}
+.button-actualite{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.card-photo{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
